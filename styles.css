@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+}
+
+body {
+  background-color: rgb(35, 58, 158);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  padding: 0px 20px;
+  text-align: center;
+  gap: 6px;
+  color: white;
+}
+
+input {
+  width: 90%;
+  padding: 12px;
+  background-color: aliceblue;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  border-radius: 3px;
+}
+
+h2 {
+  margin-bottom: 12px;
+}
+
+.paragrafo-simulacao {
+  margin-bottom: 30px;
+  color: #e7e7e7;
+}
+
+select {
+  width: 90%;
+  padding: 12px;
+  margin-bottom: 30px;
+  background-color: aliceblue;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  border-radius: 3px;
+}
+
+option {
+  background-color: aliceblue;
+}
+
+a {
+  background-color: rgb(238, 158, 9);
+  padding: 12px;
+  width: 90%;
+  color: white;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.logo-senabank {
+  margin-top: 20px;
+}
+
+#resultado {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+#resultado div {
+  background-color: white;
+  width: 80%;
+  color: black;
+  padding: 30px;
+}
+
+#resultado ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#resultado span {
+  font-size: 20px;
+  font-weight: bold;
+}
